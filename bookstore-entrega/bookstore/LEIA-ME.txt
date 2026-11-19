@@ -1,0 +1,11 @@
+BookStore - Aula 29 (Padrao DAO + SQLite)
+
+Conteudo: codigo-fonte em src/ (Livro, LivroDAO, LivroDAOSqlite, ConexaoFactory, Main)
+e saida-console.txt (resultado da execucao do Main).
+
+Para rodar: e necessario o driver SQLite JDBC (sqlite-jdbc-3.42.0.1.jar) numa pasta lib/.
+Ele foi omitido do zip por causa do limite de 10 MB de envio.
+Download: https://github.com/xerial/sqlite-jdbc/releases/tag/3.42.0.1
+
+  javac -encoding UTF-8 -cp "lib/*" -d out $(find src -name "*.java")
+  java -cp "out;lib/*" br.com.bookstore.Main

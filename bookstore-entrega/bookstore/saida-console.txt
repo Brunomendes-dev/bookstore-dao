@@ -1,0 +1,15 @@
+=== 1. Salvando 3 livros ===
+IDs gerados: 1, 2, 3
+
+=== 2. Buscando livro de ID 2 ===
+Encontrado: Livro[id=2, titulo='Design Patterns', autor='Erich Gamma', preco=R$ 119,90]
+
+=== 3. Buscando ID inexistente (999) ===
+Aviso: nenhum livro com ID 999 (sem NullPointerException).
+
+=== 4. Listando todos ===
+ID   | TÍTULO               | AUTOR                |      PREÇO
+-----+----------------------+----------------------+-----------
+1    | Clean Code           | Robert C. Martin     | R$   89,90
+2    | Design Patterns      | Erich Gamma          | R$  119,90
+3    | Refactoring          | Martin Fowler        | R$   99,50
